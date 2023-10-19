@@ -34,7 +34,7 @@ export default {
   verbose: true,
   setupFiles: ['./jest/setup.js'],
   testEnvironmentOptions: {
-    url: 'https://docusaurus.io/',
+    url: 'https://Gityjf.io/',
   },
   testEnvironment: 'node',
   testPathIgnorePatterns: ignorePatterns,
