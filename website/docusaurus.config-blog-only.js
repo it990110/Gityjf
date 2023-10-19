@@ -10,7 +10,7 @@ export default {
   title: 'Docusaurus blog only!',
   tagline: 'Build optimized websites quickly, focus on your content',
   organizationName: 'facebook',
-  projectName: 'docusaurus',
+  projectName: 'Gityjf',
   baseUrl: '/blog-only/',
   url: 'https://gityjf.io',
   // We can only warn now, since we have blog pages linking to non-blog pages...
@@ -28,7 +28,7 @@ export default {
         blog: {
           routeBasePath: '/',
           path: 'blog',
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/it990110/Gityjf/edit/main/website/',
           postsPerPage: 3,
           feedOptions: {
             type: 'all',
