@@ -12,7 +12,7 @@ export default {
   organizationName: 'facebook',
   projectName: 'gityjf',
   baseUrl: '/blog-only/',
-  url: 'https://gityjf.io',
+  url: 'https://it990110/gityjf.io',
   // We can only warn now, since we have blog pages linking to non-blog pages...
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
