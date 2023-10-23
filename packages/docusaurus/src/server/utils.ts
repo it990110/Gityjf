@@ -18,7 +18,7 @@ export function getAllFinalRoutes(routeConfig: RouteConfig[]): RouteConfig[] {
 }
 
 // Globby that fix Windows path patterns
-// See https://github.com/facebook/docusaurus/pull/4222#issuecomment-795517329
+// See https://github.com/it990110/gityjf/pull/4222#issuecomment-795517329
 export async function safeGlobby(
   patterns: string[],
   options?: Globby.GlobbyOptions,

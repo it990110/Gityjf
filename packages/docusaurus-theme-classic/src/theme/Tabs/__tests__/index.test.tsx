@@ -125,7 +125,7 @@ describe('Tabs', () => {
       );
     }).not.toThrow(); // TODO Better Jest infrastructure to mock the Layout
   });
-  // https://github.com/facebook/docusaurus/issues/5729
+  // https://github.com/it990110/gityjf/issues/5729
   it('accepts dynamic Tabs with number values', () => {
     expect(() => {
       const tabs = ['Apple', 'Banana', 'Carrot'];

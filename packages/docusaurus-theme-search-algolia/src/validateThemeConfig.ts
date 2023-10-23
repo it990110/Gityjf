@@ -14,7 +14,7 @@ import type {
 
 export const DEFAULT_CONFIG = {
   // Enabled by default, as it makes sense in most cases
-  // see also https://github.com/facebook/docusaurus/issues/5880
+  // see also https://github.com/it990110/gityjf/issues/5880
   contextualSearch: true,
 
   searchParameters: {},

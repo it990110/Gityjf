@@ -219,7 +219,7 @@ describe('DefaultSidebarItemsGenerator', () => {
 
   it('generates subfolder sidebar', async () => {
     // Ensure that category metadata file is correctly read
-    // fix edge case found in https://github.com/facebook/docusaurus/issues/4638
+    // fix edge case found in https://github.com/it990110/gityjf/issues/4638
     const sidebarSlice = await DefaultSidebarItemsGenerator({
       numberPrefixParser: DefaultNumberPrefixParser,
       isCategoryIndex,

@@ -114,7 +114,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'External link absolute',
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/it990110/gityjf',
         },
         {
           type: 'link',

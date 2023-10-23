@@ -44,7 +44,7 @@ export async function build(
   // When running build, we force terminate the process to prevent async
   // operations from never returning. However, if run as part of docusaurus
   // deploy, we have to let deploy finish.
-  // See https://github.com/facebook/docusaurus/pull/2496
+  // See https://github.com/it990110/gityjf/pull/2496
   forceTerminate: boolean = true,
 ): Promise<string> {
   process.env.BABEL_ENV = 'production';
@@ -133,7 +133,7 @@ async function buildLocale({
 }): Promise<string> {
   // Temporary workaround to unlock the ability to translate the site config
   // We'll remove it if a better official API can be designed
-  // See https://github.com/facebook/docusaurus/issues/4542
+  // See https://github.com/it990110/gityjf/issues/4542
   process.env.DOCUSAURUS_CURRENT_LOCALE = locale;
 
   logger.info`name=${`[${locale}]`} Creating an optimized production build...`;

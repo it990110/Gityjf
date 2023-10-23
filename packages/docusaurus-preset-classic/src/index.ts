@@ -51,12 +51,12 @@ export default function preset(
   }
   if ('gtag' in themeConfig) {
     throw new Error(
-      'The "gtag" field in themeConfig should now be specified as option for plugin-google-gtag. For preset-classic, simply move themeConfig.gtag to preset options. More information at https://github.com/facebook/docusaurus/pull/5832.',
+      'The "gtag" field in themeConfig should now be specified as option for plugin-google-gtag. For preset-classic, simply move themeConfig.gtag to preset options. More information at https://github.com/it990110/gityjf/pull/5832.',
     );
   }
   if ('googleAnalytics' in themeConfig) {
     throw new Error(
-      'The "googleAnalytics" field in themeConfig should now be specified as option for plugin-google-analytics. For preset-classic, simply move themeConfig.googleAnalytics to preset options. More information at https://github.com/facebook/docusaurus/pull/5832.',
+      'The "googleAnalytics" field in themeConfig should now be specified as option for plugin-google-analytics. For preset-classic, simply move themeConfig.googleAnalytics to preset options. More information at https://github.com/it990110/gityjf/pull/5832.',
     );
   }
 

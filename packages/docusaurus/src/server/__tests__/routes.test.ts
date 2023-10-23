@@ -57,7 +57,7 @@ describe('genChunkName', () => {
     expect(genChunkName('d', undefined, undefined, true)).toBe('8277e091');
   });
 
-  // https://github.com/facebook/docusaurus/issues/8536
+  // https://github.com/it990110/gityjf/issues/8536
   it('avoids hash collisions', () => {
     expect(
       genChunkName(

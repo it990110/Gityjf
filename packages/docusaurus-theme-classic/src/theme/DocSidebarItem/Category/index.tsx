@@ -52,7 +52,7 @@ function useAutoExpandActiveCategory({
  * the category even when JS fails to load, is delayed or simply disabled
  * React hydration becomes an optional progressive enhancement
  * see https://github.com/facebookincubator/infima/issues/36#issuecomment-772543188
- * see https://github.com/facebook/docusaurus/issues/3030
+ * see https://github.com/it990110/gityjf/issues/3030
  */
 function useCategoryHrefWithSSRFallback(
   item: Props['item'],

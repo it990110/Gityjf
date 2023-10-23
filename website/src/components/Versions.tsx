@@ -114,7 +114,7 @@ export function StableMajorVersion(): JSX.Element {
 
 function GitBranchLink({branch}: {branch: string}): JSX.Element {
   return (
-    <Link to={`https://github.com/facebook/docusaurus/tree/${branch}`}>
+    <Link to={`https://github.com/it990110/gityjf/tree/${branch}`}>
       <code>{branch}</code>
     </Link>
   );

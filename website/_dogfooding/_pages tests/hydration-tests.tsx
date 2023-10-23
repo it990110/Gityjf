@@ -9,7 +9,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 
-// Repro for hydration issue https://github.com/facebook/docusaurus/issues/5617
+// Repro for hydration issue https://github.com/it990110/gityjf/issues/5617
 function BuggyText() {
   return (
     <span>

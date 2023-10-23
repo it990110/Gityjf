@@ -75,7 +75,7 @@ declare module '@theme/Admonition/Type/Tip' {
 }
 
 // TODO remove before v4: Caution replaced by Warning
-// see https://github.com/facebook/docusaurus/issues/7558
+// see https://github.com/it990110/gityjf/issues/7558
 declare module '@theme/Admonition/Type/Caution' {
   import type {Props as AdmonitionProps} from '@theme/Admonition';
 

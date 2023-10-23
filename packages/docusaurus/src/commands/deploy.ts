@@ -28,7 +28,7 @@ function obfuscateGitPass(str: string) {
 }
 
 // Log executed commands so that user can figure out mistakes on his own
-// for example: https://github.com/facebook/docusaurus/issues/3875
+// for example: https://github.com/it990110/gityjf/issues/3875
 function shellExecLog(cmd: string) {
   try {
     const result = shell.exec(cmd);

@@ -16,7 +16,7 @@ import {
 import type {LoadedPlugin} from '@docusaurus/types';
 
 describe('sortAliases', () => {
-  // https://github.com/facebook/docusaurus/issues/6878
+  // https://github.com/it990110/gityjf/issues/6878
   // Not sure if the risk actually happens, but still made tests to ensure that
   // behavior is consistent
   it('sorts reliably', () => {

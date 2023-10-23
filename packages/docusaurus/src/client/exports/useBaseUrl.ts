@@ -27,7 +27,7 @@ function addBaseUrl(
   }
 
   // /baseUrl -> /baseUrl/
-  // https://github.com/facebook/docusaurus/issues/6315
+  // https://github.com/it990110/gityjf/issues/6315
   if (url === baseUrl.replace(/\/$/, '')) {
     return baseUrl;
   }

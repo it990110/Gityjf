@@ -12,7 +12,7 @@ import type {Props} from '@theme/MDXComponents/Ul';
 import styles from './styles.module.css';
 
 function transformUlClassName(className?: string): string | undefined {
-  // Fix https://github.com/facebook/docusaurus/issues/9098
+  // Fix https://github.com/it990110/gityjf/issues/9098
   if (typeof className === 'undefined') {
     return undefined;
   }

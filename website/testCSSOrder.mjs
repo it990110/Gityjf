@@ -16,8 +16,8 @@ There are multiple ways to provide some CSS to Docusaurus
 and Docusaurus should guarantee a consistent CSS ordering over time
 
 See also
-- https://github.com/facebook/docusaurus/issues/3678
-- https://github.com/facebook/docusaurus/pull/5987
+- https://github.com/it990110/gityjf/issues/3678
+- https://github.com/it990110/gityjf/pull/5987
 
 TODO we should probably add a real e2e test in core instead of using our own
 website? Current solution looks good-enough for now
@@ -28,7 +28,7 @@ website? Current solution looks good-enough for now
 const EXPECTED_CSS_MARKERS = [
   // Note, Infima and site classes are optimized/deduplicated and put at the top
   // We don't agree yet on what should be the order for those classes
-  // See https://github.com/facebook/docusaurus/pull/6222
+  // See https://github.com/it990110/gityjf/pull/6222
   '.markdown>h2',
   '.button--outline.button--active',
   '--ifm-color-scheme:light',

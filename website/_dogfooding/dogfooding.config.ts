@@ -32,7 +32,7 @@ export const dogfoodingPluginInstances: PluginConfig[] = [
         },
       },
 
-      // Using a _ prefix to test against an edge case regarding MDX partials: https://github.com/facebook/docusaurus/discussions/5181#discussioncomment-1018079
+      // Using a _ prefix to test against an edge case regarding MDX partials: https://github.com/it990110/gityjf/discussions/5181#discussioncomment-1018079
       path: '_dogfooding/_docs tests',
       showLastUpdateTime: true,
       showLastUpdateAuthor: true,
@@ -61,7 +61,7 @@ export const dogfoodingPluginInstances: PluginConfig[] = [
       path: '_dogfooding/_blog tests',
       routeBasePath: '/tests/blog',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/_dogfooding/_blog-tests',
+        'https://github.com/it990110/gityjf/edit/main/website/_dogfooding/_blog-tests',
       postsPerPage: 3,
       feedOptions: {
         type: 'all',

@@ -14,8 +14,8 @@ import writeRedirectFiles, {
 } from '../writeRedirectFiles';
 
 // Test to fix toUrl bugs we had:
-// - https://github.com/facebook/docusaurus/issues/3886
-// - https://github.com/facebook/docusaurus/issues/3925
+// - https://github.com/it990110/gityjf/issues/3886
+// - https://github.com/it990110/gityjf/issues/3925
 describe('createToUrl', () => {
   it('creates appropriate redirect urls', () => {
     expect(createToUrl('/', '/docs/something/else')).toBe(

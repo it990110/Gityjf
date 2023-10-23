@@ -110,7 +110,7 @@ function getBrokenLinksErrorMessage(allBrokenLinks: {
   /**
    * If there's a broken link appearing very often, it is probably a broken link
    * on the layout. Add an additional message in such case to help user figure
-   * this out. See https://github.com/facebook/docusaurus/issues/3567#issuecomment-706973805
+   * this out. See https://github.com/it990110/gityjf/issues/3567#issuecomment-706973805
    */
   function getLayoutBrokenLinksHelpMessage() {
     const flatList = Object.entries(allBrokenLinks).flatMap(

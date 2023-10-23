@@ -118,7 +118,7 @@ const HtmlNavbarItemSchema = Joi.object({
 });
 
 // A temporary workaround to allow users to add custom navbar items
-// See https://github.com/facebook/docusaurus/issues/7227
+// See https://github.com/it990110/gityjf/issues/7227
 const CustomNavbarItemRegexp = /custom-.*/;
 const CustomNavbarItemSchema = Joi.object({
   type: Joi.string().regex(CustomNavbarItemRegexp).required(),
@@ -315,7 +315,7 @@ const LogoSchema = Joi.object({
 });
 
 // Normalize prism language to lowercase
-// See https://github.com/facebook/docusaurus/issues/9012
+// See https://github.com/it990110/gityjf/issues/9012
 const PrismLanguage = Joi.string().custom((val) => val.toLowerCase());
 
 export const ThemeConfigSchema = Joi.object<ThemeConfig>({
@@ -340,7 +340,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
   metadatas: Joi.any().forbidden().messages({
     'any.unknown':
       // cSpell:ignore metadatas
-      'themeConfig.metadatas has been renamed as themeConfig.metadata. See https://github.com/facebook/docusaurus/pull/5871',
+      'themeConfig.metadatas has been renamed as themeConfig.metadata. See https://github.com/it990110/gityjf/pull/5871',
   }),
   announcementBar: Joi.object({
     id: Joi.string().default('announcement-bar'),

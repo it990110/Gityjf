@@ -106,7 +106,7 @@ export function getFileCommitDate(
     .join(' ');
 
   const result = shell.exec(`git log ${args} -- "${path.basename(file)}"`, {
-    // Setting cwd is important, see: https://github.com/facebook/docusaurus/pull/5048
+    // Setting cwd is important, see: https://github.com/it990110/gityjf/pull/5048
     cwd: path.dirname(file),
     silent: true,
   });

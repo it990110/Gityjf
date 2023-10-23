@@ -366,7 +366,7 @@ function SearchPageContent(): JSX.Element {
         <title>{useTitleFormatter(getTitle())}</title>
         {/*
          We should not index search pages
-          See https://github.com/facebook/docusaurus/pull/3233
+          See https://github.com/it990110/gityjf/pull/3233
         */}
         <meta property="robots" content="noindex, follow" />
       </Head>

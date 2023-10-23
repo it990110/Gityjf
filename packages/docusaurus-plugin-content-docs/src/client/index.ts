@@ -74,7 +74,7 @@ export type DocVersionSuggestions = {
 };
 
 // Important to use a constant object to avoid React useEffect executions etc.
-// see https://github.com/facebook/docusaurus/issues/5089
+// see https://github.com/it990110/gityjf/issues/5089
 const StableEmptyObject = {};
 
 // In blog-only mode, docs hooks are still used by the theme. We need a fail-

@@ -8,7 +8,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-// See https://github.com/facebook/docusaurus/issues/6337#issuecomment-1012913647
+// See https://github.com/it990110/gityjf/issues/6337#issuecomment-1012913647
 export default function LayoutNoChildren(): JSX.Element {
   return <Layout />;
 }

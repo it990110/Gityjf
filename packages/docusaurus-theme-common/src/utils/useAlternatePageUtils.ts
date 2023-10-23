@@ -41,7 +41,7 @@ export function useAlternatePageUtils(): {
   } = useDocusaurusContext();
 
   // TODO using useLocation().pathname is not a super idea
-  // See https://github.com/facebook/docusaurus/issues/9170
+  // See https://github.com/it990110/gityjf/issues/9170
   const {pathname} = useLocation();
 
   const canonicalPathname = applyTrailingSlash(pathname, {

@@ -82,7 +82,7 @@ export function validateThemeConfig({
 }: ThemeConfigValidationContext<ThemeConfig>): ThemeConfig {
   if ('googleAnalytics' in themeConfig) {
     throw new Error(
-      'The "googleAnalytics" field in themeConfig should now be specified as option for plugin-google-analytics. More information at https://github.com/facebook/docusaurus/pull/5832.',
+      'The "googleAnalytics" field in themeConfig should now be specified as option for plugin-google-analytics. More information at https://github.com/it990110/gityjf/pull/5832.',
     );
   }
   return themeConfig;

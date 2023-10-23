@@ -396,7 +396,7 @@ export default async function pluginContentBlog(
             {
               test: /\.mdx?$/i,
               include: contentDirs
-                // Trailing slash is important, see https://github.com/facebook/docusaurus/pull/3970
+                // Trailing slash is important, see https://github.com/it990110/gityjf/pull/3970
                 .map(addTrailingPathSeparator),
               use: [
                 {

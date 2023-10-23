@@ -22,7 +22,7 @@ export default function SiteMetadataDefaults(): JSX.Element {
     <Head>
       {/*
         charSet + generator are handled in the html templates
-        See https://github.com/facebook/docusaurus/pull/7952
+        See https://github.com/it990110/gityjf/pull/7952
         <meta charSet="UTF-8" />
         <meta name="generator" content={`Docusaurus v${docusaurusVersion}`} />
       */}

@@ -219,7 +219,7 @@ export function buildHttpsUrl(
 /**
  * Whether the current URL is an SSH protocol. In addition to looking for
  * `ssh:`, it will also allow protocol-less URLs like
- * `git@github.com:facebook/docusaurus.git`.
+ * `git@github.com:it990110/gityjf.git`.
  */
 export function hasSSHProtocol(sourceRepoUrl: string): boolean {
   try {

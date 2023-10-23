@@ -24,7 +24,7 @@ module.exports = {
         blog: {
           routeBasePath: '/blog/',
           path: 'blog',
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/it990110/gityjf/edit/main/website/',
           postsPerPage: 3,
           feedOptions: {
             type: 'all',

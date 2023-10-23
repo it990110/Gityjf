@@ -125,7 +125,7 @@ function useContextValue(): ContextValue {
   // PCS is coerced to light mode when printing, which causes the color mode to
   // be reset to dark when exiting print mode, disregarding user settings. When
   // the listener fires only because of a print/screen switch, we don't change
-  // color mode. See https://github.com/facebook/docusaurus/pull/6490
+  // color mode. See https://github.com/it990110/gityjf/pull/6490
   const previousMediaIsPrint = useRef(false);
 
   useEffect(() => {

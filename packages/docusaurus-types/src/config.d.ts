@@ -66,7 +66,7 @@ export type MarkdownConfig = {
 
   /**
    * Set of flags make it easier to upgrade from MDX 1 to MDX 2
-   * See also https://github.com/facebook/docusaurus/issues/4029
+   * See also https://github.com/it990110/gityjf/issues/4029
    */
   mdx1Compat: MDX1CompatOptions;
 };

@@ -10,7 +10,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import IframeWindow from '@site/src/components/BrowserWindow/IframeWindow';
 
-// See https://github.com/facebook/docusaurus/issues/8672
+// See https://github.com/it990110/gityjf/issues/8672
 export default function Embeds(): JSX.Element {
   return (
     <Layout>

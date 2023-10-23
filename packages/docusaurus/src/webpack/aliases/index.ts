@@ -29,8 +29,8 @@ const ThemeFallbackDir = path.join(__dirname, '../../client/theme-fallback');
  * This ensures `@theme/NavbarItem` alias is after
  * `@theme/NavbarItem/LocaleDropdown`.
  *
- * @see https://github.com/facebook/docusaurus/pull/3922
- * @see https://github.com/facebook/docusaurus/issues/5382
+ * @see https://github.com/it990110/gityjf/pull/3922
+ * @see https://github.com/it990110/gityjf/issues/5382
  */
 export function sortAliases(aliases: ThemeAliases): ThemeAliases {
   // Alphabetical order by default

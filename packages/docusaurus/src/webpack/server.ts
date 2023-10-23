@@ -88,7 +88,7 @@ export default async function createServerConfig({
         // When using "new URL('file.js', import.meta.url)", Webpack will emit
         // __filename, and this plugin will throw. not sure the __filename value
         // has any importance for this plugin, just using an empty string to
-        // avoid the error. See https://github.com/facebook/docusaurus/issues/4922
+        // avoid the error. See https://github.com/it990110/gityjf/issues/4922
         globals: {__filename: ''},
 
         // Secret way to set SSR plugin concurrency option

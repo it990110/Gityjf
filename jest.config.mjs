@@ -39,7 +39,7 @@ export default {
   testEnvironment: 'node',
   testPathIgnorePatterns: ignorePatterns,
   // Default 5s timeout often fails on Windows :s,
-  // see https://github.com/facebook/docusaurus/pull/8259
+  // see https://github.com/it990110/gityjf/pull/8259
   testTimeout: 15000,
   coveragePathIgnorePatterns: [
     ...ignorePatterns,

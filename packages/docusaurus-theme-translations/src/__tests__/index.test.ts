@@ -27,7 +27,7 @@ describe('codeTranslationLocalesToTry', () => {
       'fr',
     ]);
     // Note: "pt" is expanded into "pt-BR", not "pt-PT", as "pt-BR" is more
-    // widely used! See https://github.com/facebook/docusaurus/pull/4536#issuecomment-810088783
+    // widely used! See https://github.com/it990110/gityjf/pull/4536#issuecomment-810088783
     expect(codeTranslationLocalesToTry('pt')).toEqual([
       'pt',
       'pt-BR',

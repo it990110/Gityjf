@@ -100,7 +100,7 @@ describe('getSlug', () => {
     ).toBe('/001-dir1/002-dir2/doc');
   });
 
-  // See https://github.com/facebook/docusaurus/issues/3223
+  // See https://github.com/it990110/gityjf/issues/3223
   it('handles special chars in doc path', () => {
     expect(
       getSlug({

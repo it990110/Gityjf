@@ -48,7 +48,7 @@ program
   )
   .description('Initialize website.')
   .action((siteName, template, rootDir, options) =>
-    // See https://github.com/facebook/docusaurus/pull/6860
+    // See https://github.com/it990110/gityjf/pull/6860
     import('../lib/index.js').then(({default: init}) =>
       init(path.resolve(rootDir ?? '.'), siteName, template, options),
     ),

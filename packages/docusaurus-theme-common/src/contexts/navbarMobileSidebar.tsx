@@ -59,7 +59,7 @@ function useContextValue(): ContextValue {
     if (shown) {
       setShown(false);
       // Prevent pop navigation; seems desirable enough
-      // See https://github.com/facebook/docusaurus/pull/5462#issuecomment-911699846
+      // See https://github.com/it990110/gityjf/pull/5462#issuecomment-911699846
       return false;
     }
     return undefined;

@@ -229,7 +229,7 @@ export const ConfigSchema = Joi.object<DocusaurusConfig>({
         async: Joi.bool(),
         defer: Joi.bool(),
       })
-        // See https://github.com/facebook/docusaurus/issues/3378
+        // See https://github.com/it990110/gityjf/issues/3378
         .unknown(),
     )
     .messages({

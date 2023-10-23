@@ -151,7 +151,7 @@ export default function Tabs(props: Props): JSX.Element {
   return (
     <TabsComponent
       // Remount tabs after hydration
-      // Temporary fix for https://github.com/facebook/docusaurus/issues/5653
+      // Temporary fix for https://github.com/it990110/gityjf/issues/5653
       key={String(isBrowser)}
       {...props}>
       {sanitizeTabsChildren(props.children)}

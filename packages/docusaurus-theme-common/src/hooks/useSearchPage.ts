@@ -32,7 +32,7 @@ export function useSearchLinkCreator(): (searchValue: string) => string {
 
   return useCallback(
     (searchValue: string) =>
-      // Refer to https://github.com/facebook/docusaurus/pull/2838
+      // Refer to https://github.com/it990110/gityjf/pull/2838
       // Note: if searchPagePath is falsy, useSearchPage() will not be called
       `${baseUrl}${
         searchPagePath as string

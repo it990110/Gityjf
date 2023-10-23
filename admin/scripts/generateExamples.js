@@ -13,7 +13,7 @@ import shell from 'shelljs';
 /**
  * Generate one example per init template
  * We use those generated examples as CodeSandbox projects
- * See https://github.com/facebook/docusaurus/issues/1699
+ * See https://github.com/it990110/gityjf/issues/1699
  * @param {string} template
  */
 async function generateTemplateExample(template) {
@@ -129,7 +129,7 @@ function updateStarters() {
 
   console.log('');
 
-  console.log('Updating https://github.com/facebook/docusaurus/tree/starter');
+  console.log('Updating https://github.com/it990110/gityjf/tree/starter');
   forcePushGitSubtree({
     subfolder: 'examples/classic',
     remote: 'origin',

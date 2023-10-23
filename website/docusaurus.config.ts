@@ -116,13 +116,13 @@ function getLocalizedConfigValue(key: string) {
 
 export default async function createConfigAsync() {
   return {
-    title: 'Docusaurus',
+    title: 'gityjf',
     tagline: getLocalizedConfigValue('tagline'),
-    organizationName: 'facebook',
-    projectName: 'docusaurus',
+    organizationName: 'it990110',
+    projectName: 'gityjf',
     baseUrl,
     baseUrlIssueBanner: true,
-    url: 'https://docusaurus.io',
+    url: 'https://it990110/gityjf.io',
     // Dogfood both settings:
     // - force trailing slashes for deploy previews
     // - avoid trailing slashes in prod
@@ -248,7 +248,7 @@ export default async function createConfigAsync() {
             if (locale !== defaultLocale) {
               return `https://crowdin.com/project/docusaurus-v2/${locale}`;
             }
-            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/it990110/gityjf/edit/main/website/${versionDocsDirPath}/${docPath}`;
           },
           remarkPlugins: [npm2yarn],
           editCurrentVersion: true,
@@ -380,7 +380,7 @@ export default async function createConfigAsync() {
               // We want users to submit updates to the upstream/next version!
               // Otherwise we risk losing the update on the next release.
               const nextVersionDocsDirPath = 'docs';
-              return `https://github.com/facebook/docusaurus/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
+              return `https://github.com/it990110/gityjf/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
             },
             admonitions: {
               keywords: ['my-custom-admonition'],
@@ -423,7 +423,7 @@ export default async function createConfigAsync() {
               if (locale !== defaultLocale) {
                 return `https://crowdin.com/project/docusaurus-v2/${locale}`;
               }
-              return `https://github.com/facebook/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
+              return `https://github.com/it990110/gityjf/edit/main/website/${blogDirPath}/${blogPath}`;
             },
             remarkPlugins: [npm2yarn],
             postsPerPage: 5,
@@ -474,7 +474,7 @@ export default async function createConfigAsync() {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
+        content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/it990110/gityjf">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
       },
       prism: {
         additionalLanguages: [
@@ -602,13 +602,13 @@ export default async function createConfigAsync() {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/facebook/docusaurus/issues/3526',
+                href: 'https://github.com/it990110/gityjf/issues/3526',
                 label: 'Help Us Translate',
               },
             ],
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/it990110/gityjf',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -673,7 +673,7 @@ export default async function createConfigAsync() {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/it990110/gityjf',
               },
               {
                 label: 'Twitter',

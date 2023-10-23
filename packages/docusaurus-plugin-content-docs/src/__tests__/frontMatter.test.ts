@@ -85,7 +85,7 @@ describe('validateDocFrontMatter title', () => {
   testField({
     prefix: 'title',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
       {title: ''},
       {title: 'title'},
     ],
@@ -162,7 +162,7 @@ describe('validateDocFrontMatter description', () => {
   testField({
     prefix: 'description',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
       {description: ''},
       {description: 'description'},
     ],
@@ -232,7 +232,7 @@ describe('validateDocFrontMatter custom_edit_url', () => {
       // See https://github.com/demisto/content-docs/pull/616#issuecomment-827087566
       {custom_edit_url: ''},
       {custom_edit_url: null},
-      {custom_edit_url: 'https://github.com/facebook/docusaurus/markdown.md'},
+      {custom_edit_url: 'https://github.com/it990110/gityjf/markdown.md'},
       {custom_edit_url: '../../api/docs/markdown.md'},
       {custom_edit_url: '@site/api/docs/markdown.md'},
     ],

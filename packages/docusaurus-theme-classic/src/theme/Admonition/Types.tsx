@@ -24,7 +24,7 @@ const admonitionTypes: typeof AdmonitionTypes = {
 
 // Undocumented legacy admonition type aliases
 // Provide hardcoded/untranslated retrocompatible label
-// See also https://github.com/facebook/docusaurus/issues/7767
+// See also https://github.com/it990110/gityjf/issues/7767
 const admonitionAliases: typeof AdmonitionTypes = {
   secondary: (props) => <AdmonitionTypeNote title="secondary" {...props} />,
   important: (props) => <AdmonitionTypeInfo title="important" {...props} />,

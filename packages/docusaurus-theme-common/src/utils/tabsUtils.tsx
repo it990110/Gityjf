@@ -251,7 +251,7 @@ export function useTabs(props: TabsProps): {
     return value;
   })();
   // Sync in a layout/sync effect is important, for useScrollPositionBlocker
-  // See https://github.com/facebook/docusaurus/issues/8625
+  // See https://github.com/it990110/gityjf/issues/8625
   useIsomorphicLayoutEffect(() => {
     if (valueToSync) {
       setSelectedValue(valueToSync);

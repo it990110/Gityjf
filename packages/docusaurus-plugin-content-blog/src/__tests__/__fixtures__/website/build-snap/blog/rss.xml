@@ -15,7 +15,7 @@
             <guid>https://docusaurus.io/blog/blog-with-links</guid>
             <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[absolute full url]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer">absolute full url</a></p>
+            <content:encoded><![CDATA[<p><a href="https://github.com/it990110/gityjf" target="_blank" rel="noopener noreferrer">absolute full url</a></p>
 <p><a href="https://docusaurus.io/blog/heading-as-title">absolute pathname</a></p>
 <p><a href="https://docusaurus.io/blog/heading-as-title">relative pathname</a></p>
 <p><a href="https://docusaurus.io/blog/heading-as-title">md link</a></p>

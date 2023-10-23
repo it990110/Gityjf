@@ -35,7 +35,7 @@ function LivePreviewLoader() {
 
 function Preview() {
   // No SSR for the live preview
-  // See https://github.com/facebook/docusaurus/issues/5747
+  // See https://github.com/it990110/gityjf/issues/5747
   return (
     <BrowserOnly fallback={<LivePreviewLoader />}>
       {() => (
@@ -63,7 +63,7 @@ function ResultWithHeader() {
           Result
         </Translate>
       </Header>
-      {/* https://github.com/facebook/docusaurus/issues/5747 */}
+      {/* https://github.com/it990110/gityjf/issues/5747 */}
       <div className={styles.playgroundPreview}>
         <Preview />
       </div>

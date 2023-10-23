@@ -152,16 +152,16 @@ describe('normalizeUrl', () => {
 describe('getEditUrl', () => {
   it('returns right path', () => {
     expect(
-      getEditUrl('foo/bar.md', 'https://github.com/facebook/docusaurus'),
-    ).toBe('https://github.com/facebook/docusaurus/foo/bar.md');
+      getEditUrl('foo/bar.md', 'https://github.com/it990110/gityjf'),
+    ).toBe('https://github.com/it990110/gityjf/foo/bar.md');
     expect(
-      getEditUrl('foo/你好.md', 'https://github.com/facebook/docusaurus'),
-    ).toBe('https://github.com/facebook/docusaurus/foo/你好.md');
+      getEditUrl('foo/你好.md', 'https://github.com/it990110/gityjf'),
+    ).toBe('https://github.com/it990110/gityjf/foo/你好.md');
   });
   it('always returns valid URL', () => {
     expect(
-      getEditUrl('foo\\你好.md', 'https://github.com/facebook/docusaurus'),
-    ).toBe('https://github.com/facebook/docusaurus/foo/你好.md');
+      getEditUrl('foo\\你好.md', 'https://github.com/it990110/gityjf'),
+    ).toBe('https://github.com/it990110/gityjf/foo/你好.md');
   });
   it('returns undefined for undefined', () => {
     expect(getEditUrl('foo/bar.md')).toBeUndefined();
@@ -259,11 +259,11 @@ describe('encodePath', () => {
 describe('buildSshUrl', () => {
   it('builds a normal ssh url', () => {
     const url = buildSshUrl('github.com', 'facebook', 'docusaurus');
-    expect(url).toBe('git@github.com:facebook/docusaurus.git');
+    expect(url).toBe('git@github.com:it990110/gityjf.git');
   });
   it('builds a ssh url with port', () => {
     const url = buildSshUrl('github.com', 'facebook', 'docusaurus', '422');
-    expect(url).toBe('ssh://git@github.com:422/facebook/docusaurus.git');
+    expect(url).toBe('ssh://git@github.com:422/it990110/gityjf.git');
   });
 });
 
@@ -275,7 +275,7 @@ describe('buildHttpsUrl', () => {
       'facebook',
       'docusaurus',
     );
-    expect(url).toBe('https://user:pass@github.com/facebook/docusaurus.git');
+    expect(url).toBe('https://user:pass@github.com/it990110/gityjf.git');
   });
   it('builds a normal http url with port', () => {
     const url = buildHttpsUrl(
@@ -286,29 +286,29 @@ describe('buildHttpsUrl', () => {
       '5433',
     );
     expect(url).toBe(
-      'https://user:pass@github.com:5433/facebook/docusaurus.git',
+      'https://user:pass@github.com:5433/it990110/gityjf.git',
     );
   });
 });
 
 describe('hasSSHProtocol', () => {
   it('recognizes explicit SSH protocol', () => {
-    const url = 'ssh://git@github.com:422/facebook/docusaurus.git';
+    const url = 'ssh://git@github.com:422/it990110/gityjf.git';
     expect(hasSSHProtocol(url)).toBe(true);
   });
 
   it('recognizes implied SSH protocol', () => {
-    const url = 'git@github.com:facebook/docusaurus.git';
+    const url = 'git@github.com:it990110/gityjf.git';
     expect(hasSSHProtocol(url)).toBe(true);
   });
 
   it('does not recognize HTTPS with credentials', () => {
-    const url = 'https://user:pass@github.com/facebook/docusaurus.git';
+    const url = 'https://user:pass@github.com/it990110/gityjf.git';
     expect(hasSSHProtocol(url)).toBe(false);
   });
 
   it('does not recognize plain HTTPS URL', () => {
-    const url = 'https://github.com:5433/facebook/docusaurus.git';
+    const url = 'https://github.com:5433/it990110/gityjf.git';
     expect(hasSSHProtocol(url)).toBe(false);
   });
 });

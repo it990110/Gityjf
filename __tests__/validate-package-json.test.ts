@@ -50,7 +50,7 @@ describe('packages', () => {
       .forEach((packageJsonFile) => {
         expect(packageJsonFile.content.repository).toEqual({
           type: 'git',
-          url: 'https://github.com/facebook/docusaurus.git',
+          url: 'https://github.com/it990110/gityjf.git',
           directory: packageJsonFile.file.replace(/\/package\.json$/, ''),
         });
       });

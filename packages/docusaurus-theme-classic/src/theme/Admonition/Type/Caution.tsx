@@ -26,7 +26,7 @@ const defaultProps = {
 };
 
 // TODO remove before v4: Caution replaced by Warning
-// see https://github.com/facebook/docusaurus/issues/7558
+// see https://github.com/it990110/gityjf/issues/7558
 export default function AdmonitionTypeCaution(props: Props): JSX.Element {
   return (
     <AdmonitionLayout

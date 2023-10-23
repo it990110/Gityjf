@@ -101,7 +101,7 @@ export type ChunkNames = {
  * Chunk keys are routes with a hash, because 2 routes can conflict with each
  * other if they have the same path, e.g.: parent=/docs, child=/docs
  *
- * @see https://github.com/facebook/docusaurus/issues/2917
+ * @see https://github.com/it990110/gityjf/issues/2917
  */
 export type RouteChunkNames = {
   [routePathHashed: string]: ChunkNames;

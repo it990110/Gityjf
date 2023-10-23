@@ -191,7 +191,7 @@ describe('themeConfig', () => {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/it990110/gityjf',
                 className: 'github-link',
               },
             ],
@@ -250,7 +250,7 @@ describe('themeConfig', () => {
           },
           // External link with custom data attribute
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/it990110/gityjf',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',

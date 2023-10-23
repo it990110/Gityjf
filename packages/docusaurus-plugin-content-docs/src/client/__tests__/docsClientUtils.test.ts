@@ -65,7 +65,7 @@ describe('docsClientUtils', () => {
     expect(getActivePlugin(data, '/android/')).toEqual(activePluginAndroid);
     expect(getActivePlugin(data, '/android/ijk')).toEqual(activePluginAndroid);
 
-    // https://github.com/facebook/docusaurus/issues/6434
+    // https://github.com/it990110/gityjf/issues/6434
     const onePluginAtRoot: {[key: string]: GlobalPluginData} = {
       pluginIosId: {
         path: '/',

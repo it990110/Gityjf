@@ -78,7 +78,7 @@ describe('validateBlogPostFrontMatter description', () => {
   testField({
     prefix: 'description',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
       {description: ''},
       {description: 'description'},
     ],
@@ -89,7 +89,7 @@ describe('validateBlogPostFrontMatter title', () => {
   testField({
     prefix: 'title',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
       {title: ''},
       {title: 'title'},
     ],
@@ -319,7 +319,7 @@ describe('validateBlogPostFrontMatter tags', () => {
       ],
       [{tags: ['']}, 'not allowed to be empty'],
     ],
-    // See https://github.com/facebook/docusaurus/issues/4642
+    // See https://github.com/it990110/gityjf/issues/4642
     convertibleFrontMatter: [
       [{tags: [42]}, {tags: ['42']}],
       [

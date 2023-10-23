@@ -39,7 +39,7 @@ const TITLE = translate({message: 'Docusaurus Site Showcase'});
 const DESCRIPTION = translate({
   message: 'List of websites people are building with Docusaurus',
 });
-const SUBMIT_URL = 'https://github.com/facebook/docusaurus/discussions/7826';
+const SUBMIT_URL = 'https://github.com/it990110/gityjf/discussions/7826';
 
 type UserState = {
   scrollTopPosition: number;

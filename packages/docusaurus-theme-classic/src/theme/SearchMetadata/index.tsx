@@ -13,8 +13,8 @@ import type {Props} from '@theme/SearchMetadata';
 // Note: we bias toward using Algolia metadata on purpose
 // Not doing so leads to confusion in the community,
 // as it requires to first crawl the site with the Algolia plugin enabled first
-// - https://github.com/facebook/docusaurus/issues/6693
-// - https://github.com/facebook/docusaurus/issues/4555
+// - https://github.com/it990110/gityjf/issues/6693
+// - https://github.com/it990110/gityjf/issues/4555
 export default function SearchMetadata({
   locale,
   version,

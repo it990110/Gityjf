@@ -24,13 +24,13 @@ const FrontMatterLastUpdateErrorMessage =
 // We use default values in code instead
 const DocFrontMatterSchema = Joi.object<DocFrontMatter>({
   id: Joi.string(),
-  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
   title: Joi.string().allow(''),
   hide_title: Joi.boolean(),
   hide_table_of_contents: Joi.boolean(),
   keywords: Joi.array().items(Joi.string().required()),
   image: URISchema,
-  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/it990110/gityjf/issues/4591#issuecomment-822372398
   description: Joi.string().allow(''),
   slug: Joi.string(),
   sidebar_label: Joi.string(),

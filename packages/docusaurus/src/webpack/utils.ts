@@ -65,7 +65,7 @@ export function getStyleLoaders(
   } = {},
 ): RuleSetRule[] {
   const cssOptions: {[key: string]: unknown} = {
-    // TODO turn esModule on later, see https://github.com/facebook/docusaurus/pull/6424
+    // TODO turn esModule on later, see https://github.com/it990110/gityjf/pull/6424
     esModule: false,
     ...cssOptionsArg,
   };
