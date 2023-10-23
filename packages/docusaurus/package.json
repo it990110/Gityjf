@@ -30,7 +30,7 @@
     "copy:watch": "node ../../admin/scripts/copyUntypedFiles.js --watch"
   },
   "bugs": {
-    "url": "https://github.com/facebook/docusaurus/issues"
+    "url": "https://github.com/it990110/gityjf.io/issues"
   },
   "dependencies": {
     "@babel/core": "^7.22.9",
